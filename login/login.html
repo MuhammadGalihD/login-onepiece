@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LOGIN</title>
+	<link rel="icon" type="image/x-icon" href="image/galihpp.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="image/crew.jpg">
+
+		<div class="main-sidemenu">
+
+		
+				<div class="main-strip">
+					<div class="strip"></div>
+					<div class="strip"></div>
+					<div class="strip"></div>
+				</div>
+
+
+				<div class="main-side-bar">
+					<div class="navbar-side">
+						<div class="side-bar">
+							<img class="logo-head-sidebar" src="image/logo-onepiece.png">
+							<div class="side-bar-list1">YOUTUBE
+								<img src="image/icon-youtube.png" class="img-youtube">
+							</div>
+							<div class="side-bar-list2">FACEBOOK
+								<img src="image/icon-facebook.png" class="img-facebook">
+							</div>
+							<div class="side-bar-list3">INSTAGRAM
+								<img src="image/icon-instagram.png" class="img-instgram">
+							</div>
+						</div>
+					</div><!--navbar-side-->
+				</div> <!-- -->
+		</div> <!-- main-sidemenu -->
+
+	<div class="package-login">
+		<div class="container-form">
+			<form class="login">
+
+				<label for="email-login">Email</label>
+				<input type="text" id="email-login" name="email" class="email" placeholder="input email" value="">
+
+				<!-- type text artinya input berupa teks, id input digunakan identitas untuk javascript nanti saat DOM -->
+				<!-- name artinya identitas berupa input, class input digunakan identitas untuk css saat style element -->
+				<!-- placeholder digunakan untuk meletakan tulisan awal sebelum kita input sesuatu, atau keterangan informasi pada kotak input -->
+				<!-- value berarti isi dari kotak input, jika kita mengisi sesuatu pada value maka secara otomatis akan terisi text otomatis pada kotak input-->
+
+				<label for="password-login">Password</label>
+				<input type="password" id="password-login" name="password" class="password" placeholder="input password" value="">
+				<!-- type password adalah khusus untuk input password, dia akan hide apa yang kita tulis sebagai password -->
+				<button class="button-form" type="submit" id="button-form" name="button-form" action=""> SIGN IN </button>
+				<!-- class untuk css styling, type submit untuk function button, name as an identification, action is where you will go if you click the button, biasanya di isi file.php -->
+
+				<div class="info">
+					<label class="info-text">Belum Memiliki Akun ?</label>
+					<button class="info-daftar" type="submit" action=""> SIGN UP </button>
+				</div>
+
+				<div class="lupa-password">
+					<label class="info-text">Lupa Password ?</label>
+					<button class="btn-lupa-password">Klik disini</button>
+				</div>
+			</form>
+		</div>
+
+				<div class="sign-in-google">
+					<div class="login-google">
+					<img src="image/icon-google.png">
+					<button class="btn-sign-in-google"><a href="https://www.google.com/?gws_rd=ssl">Sign In with Google</a></button>
+					</div>
+				</div>
+
+	</div>			
+
+
+</body>
+<footer>
+	<marquee class="info-marquee" direction="left">
+			"Aku tidak peduli, walaupun aku harus mati untuk mengejar impianku." (Monkey D' Luffy) | 
+			"Ketika dunia jahat kepadamu, maka berusahalah untuk menghadapinya, karena tidak ada orang yang membantumu jika kau tidak berusaha." (Roronoa Zoro) | 
+			"Menang dan kalah yang membuatmu lebih dewasa, menangislah dan bangkitlah." (Akagami Shank) | 
+			"Jalan seseorang pria harus melewati darah dan air mata, karena penderitaan hiduplah yang menempa manusia." (Roronoa Zoro) | 
+			"Seorang manusia akan menjadi lebih kuat seiring halangan dan ombak (masalah) yang menerpa menghadangnya." (Roronoa Zoro) | 
+	</marquee>
+</footer>
+</html>
